@@ -1,0 +1,19 @@
+{
+  "name": "almashines-signup-automation",
+  "version": "1.0.0",
+  "description": "Automated test scripts for AlmaShines Sign Up flow using Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen https://www.almashines.com/dtc/account"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  }
+}
